@@ -1,0 +1,138 @@
+a{
+	text-decoration: none !important;
+}
+
+.banner{
+	background-image: url(../imagens/Banner.jpg);
+	height: 400px;
+	text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
+	margin-top:20px; 
+}
+
+.banner h1{
+	margin-top: 100px;
+	color: #FFFFFF;
+}
+
+.banner p{
+	color: #FFFFFF;
+}
+
+.banner-agricultores{
+	background-image: url(../imagens/Banner2.jpg);
+	height: 400px;
+	text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
+	margin-top:20px; 
+}
+
+.banner-agricultores h1{
+	margin-top: 95px;
+	color: #FFFFFF;
+}
+
+.banner-agricultores p{
+	color: #FFFFFF;
+}
+
+.btn-comprar{
+	background-color: #25b737;
+	border: #35a943 1px solid;
+}
+
+.btn-comprar:hover{
+	background-color: #2bcc3f;
+	border: #35a943 1px solid;
+}
+
+.btn-comprar:active{
+	background-color: #25b737;
+	border: #35a943 1px solid;
+}
+
+.btn-comprar:active:focus{
+	background-color: #25b737;
+	border: #35a943 1px solid;
+}
+
+.btn-comprar:visited{
+	background-color: #25b737;
+	border: #35a943 1px solid;
+}
+
+.contatos, .copyright, .endereco{
+	text-align: center;
+}
+
+.logotipo{
+	margin-top: 1px;
+	margin-left: 5px;
+}
+
+/*remover borda do formulário de pesquisa*/
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+	border: none;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #A8C052;
+}
+
+.navbar-inverse .navbar-toggle {
+    border: none;
+}
+
+.navbar-collapse{
+	border: none;
+}
+
+.menu{
+	background-color: #A8C052;
+	border:none;
+}
+
+.preço{
+	color:#900;
+}
+
+
+.pesquisar{
+	width: 300px; 
+}
+
+/*Media queries*/
+
+ /*Tablets*/
+@media screen and (min-width: 768px) {
+  
+	.navbar-nav{
+		float: right;
+	}
+
+	.pesquisar{
+		width: 270px;
+		margin-left: 70px; 
+	}
+
+}
+
+/*Monitores*/
+@media screen and (min-width: 1024px) { 
+  
+	.navbar-nav{
+		float: right;
+	}
+
+	.pesquisar{
+		width: 450px;
+		margin-left: 150px; 
+	}
+
+}
+
+
+
+
